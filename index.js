@@ -1,13 +1,6 @@
-const express = require('express');
-
-const server = express();
 
 
-
-server.get('/', (req, res) =>{
-    res.send('<h2>Migrations in the house </h2>')
-});
-
+const server = require('./api/server')
 
 const port = 5000;
 
